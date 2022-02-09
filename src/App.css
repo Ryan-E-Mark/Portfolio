@@ -47,12 +47,54 @@ table {
 /* Nav Bar Styles */
 
 #nav {
+	display: flex;
+	align-items: center;
+	background-color: white;
 	position: sticky;
 	top: 0;
 	z-index: 2;
+	height: 5vh;
+	border-bottom: 2px solid #4FBDBA;
+}
+
+.name-nav {
+	padding-left: 1%;
+	width: 25%;
+	font-size: 1.5rem;
+	color: #191919;
+}
+
+.link-nav {
+	width: 75%;
+	display: flex;
+	justify-content: end;
+}
+
+.nav-a {
+	color: #191919;
+	margin-right: 2%;
+	padding: .5%;
+	border: .5px solid;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.nav-a:hover {
+	background-color: #191919;
+	color: white;
+	border: .5px solid #4FBDBA;
 }
 
 /* Home Page Styles */
+
+h1 {
+	font-size: 5rem;
+}
+
+p {
+	font-size: 1.5rem;
+	border-bottom: 1.5px solid white;
+}
 
 .home-page {
 	background-color: #191919;

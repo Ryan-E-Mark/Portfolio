@@ -3,13 +3,13 @@ import React from "react";
 const NavBar = () => {
     return (
         <section id="nav">
-            <div>
+            <div className="name-nav">
                 <h3>Ryan Mark</h3>
             </div>
-            <div>
-                <a href="#about">About</a> 
-                <a href="#work">Work</a> 
-                <a href="#contact">Contact</a> 
+            <div className="link-nav"> 
+                <a href="#about" className="nav-a">About</a> 
+                <a href="#work" className="nav-a">Work</a> 
+                <a href="#contact" className="nav-a">Contact</a> 
             </div>
         </section>
     )
