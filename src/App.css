@@ -25,6 +25,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Roboto', sans-serif;
+	color: #4FBDBA;
 }
 ol, ul {
 	list-style: none;
@@ -40,4 +42,19 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* Nav Bar Styles */
+
+#nav {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+/* Home Page Styles */
+
+.home-page {
+	background-color: #191919;
+	height: 100vh;
 }

@@ -1,8 +1,8 @@
-import react from "react";
+import React from "react";
 
 const NavBar = () => {
     return (
-        <section>
+        <section id="nav">
             <div>
                 <h3>Ryan Mark</h3>
             </div>

@@ -1,8 +1,9 @@
-import react from "React";
+import React from "react";
+import "../App.css";
 
 const Home = () => {
     return (
-        <div>
+        <div className="home-page">
             <div>
                 <h1>Hi, I'm Ryan</h1>
                 <p>Full-Stack Developer</p>
