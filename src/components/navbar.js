@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <section>
             <div>
-
+                <h3>Ryan Mark</h3>
             </div>
             <div>
                 <a href="#about">About</a> 
