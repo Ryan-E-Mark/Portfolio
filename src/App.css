@@ -73,16 +73,28 @@ table {
 .nav-a {
 	color: #191919;
 	margin-right: 2%;
-	padding: .5%;
-	border: .5px solid;
-	border-radius: 5px;
 	text-decoration: none;
+	display: inline-block;
+	position: relative;
 }
 
-.nav-a:hover {
-	background-color: #191919;
-	color: white;
-	border: .5px solid #4FBDBA;
+
+.nav-a:after {
+	content: "";
+	width: 100%;
+	position: absolute;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #4FBDBA;
+	transform-origin: bottom;
+	transition: 0.4s ease-in-out;
+}
+
+.nav-a:hover:after {
+	transform: scaleX(1);
+	transform-origin: center;
 }
 
 /* Home Page Styles */
@@ -93,10 +105,29 @@ h1 {
 
 p {
 	font-size: 1.5rem;
+}
+
+.underline {
 	border-bottom: 1.5px solid white;
 }
 
 .home-page {
 	background-color: #191919;
 	height: 100vh;
+}
+
+.btn {
+	background-color: #191919;
+	border: 1px solid #4FBDBA;
+	border-radius: 4px;
+	color: white;
+	padding: .5%;
+}
+
+.btn:hover {
+	background-color: #302f2f;
+	border: 2px solid #4FBDBA;
+	border-radius: 4px;
+	color: white;
+	padding: .5%;
 }

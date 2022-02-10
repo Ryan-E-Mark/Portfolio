@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import About from "./about";
 import "../App.css";
 
 const Home = () => {
@@ -14,10 +15,12 @@ const Home = () => {
         <div className="home-page">
             <div>
                 <h1>Hi, I'm Ryan</h1>
-                <p>Full-Stack Developer</p>
-                <h3>About Me</h3>
-                <button onClick={handleClick}>+</button>
-                { aboutMe === true ? <p>About me paragraph</p> : <div></div>}
+                <p className="underline">Full-Stack Developer</p>
+                <div>
+                    { aboutMe === true ? <About /> : <div></div> }
+                    { aboutMe === true ? 
+                    <button className="btn exit" onClick={handleClick}>-</button> : <button className="btn" onClick={handleClick}>+</button> }
+                </div>
             </div>
         </div>
     )
