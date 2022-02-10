@@ -13,14 +13,15 @@ const Home = () => {
 
     return (
         <div className="home-page">
-            <div>
-                <h1>Hi, I'm Ryan</h1>
+            <div className="about-container">
+                <h1>Hello, I'm Ryan</h1>
                 <p className="underline">Full-Stack Developer</p>
-                <div>
-                    { aboutMe === true ? <About /> : <div></div> }
+                <div className="drop-down">
+                    <h3>About Me</h3>
                     { aboutMe === true ? 
-                    <button className="btn exit" onClick={handleClick}>-</button> : <button className="btn" onClick={handleClick}>+</button> }
+                    <button className="btn collapse" onClick={handleClick}>-</button> : <button className="btn collapse" onClick={handleClick}>+</button> }
                 </div>
+                    { aboutMe === true ? <About /> : <div></div> }
             </div>
         </div>
     )

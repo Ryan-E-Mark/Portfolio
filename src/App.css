@@ -49,7 +49,8 @@ table {
 #nav {
 	display: flex;
 	align-items: center;
-	background-color: white;
+	background-color: rgba(25, 25, 25, 0.6);
+	backdrop-filter: blurred;
 	position: sticky;
 	top: 0;
 	z-index: 2;
@@ -61,7 +62,7 @@ table {
 	padding-left: 1%;
 	width: 25%;
 	font-size: 1.5rem;
-	color: #191919;
+	color: white;
 }
 
 .link-nav {
@@ -71,13 +72,12 @@ table {
 }
 
 .nav-a {
-	color: #191919;
+	color: white;
 	margin-right: 2%;
 	text-decoration: none;
 	display: inline-block;
 	position: relative;
 }
-
 
 .nav-a:after {
 	content: "";
@@ -100,11 +100,16 @@ table {
 /* Home Page Styles */
 
 h1 {
-	font-size: 5rem;
+	font-size: 7rem;
+	padding-bottom: 1%;
+}
+
+h3 {
+	font-size: 1.5rem;
 }
 
 p {
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 .underline {
@@ -114,6 +119,14 @@ p {
 .home-page {
 	background-color: #191919;
 	height: 100vh;
+}
+
+.about-container {
+	padding-top: 10%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .btn {
@@ -130,4 +143,14 @@ p {
 	border-radius: 4px;
 	color: white;
 	padding: .5%;
+}
+
+.collapse {
+	cursor: pointer;
+}
+
+.drop-down {
+	display: flex;
+	align-items: s;
+	width: 100%;
 }
