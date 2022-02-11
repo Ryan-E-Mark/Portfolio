@@ -21,7 +21,7 @@ const Home = () => {
                     { aboutMe === true ? 
                     <button className="btn collapse" onClick={handleClick}>-</button> : <button className="btn collapse" onClick={handleClick}>+</button> }
                 </div>
-                    { aboutMe === true ? <About /> : <div></div> }
+                { aboutMe === true ? <About /> : <div></div> }
             </div>
         </div>
     )
