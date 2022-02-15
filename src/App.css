@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: 'Roboto', sans-serif;
+	background-color: #191919;
 	color: #4FBDBA;
 }
 ol, ul {
@@ -80,6 +81,11 @@ table {
 	position: relative;
 }
 
+.home-link {
+	text-decoration: none;
+	color: white;
+}
+
 .nav-a:after {
 	content: "";
 	width: 100%;
@@ -105,11 +111,11 @@ h1 {
 	padding-bottom: 1%;
 }
 
-h3 {
+h3, p {
 	font-size: 1.5rem;
 }
 
-p {
+h4 {
 	font-size: 2rem;
 }
 
@@ -119,41 +125,15 @@ p {
 
 .home-page {
 	background-color: #191919;
-	height: 150vh;
+	height: 120vh;
 }
 
-.about-container {
-	padding-top: 10%;
+.intro-container {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-}
-
-.btn {
-	background-color: #191919;
-	border: 1px solid #4FBDBA;
-	border-radius: 4px;
-	color: white;
-	padding: .5%;
-}
-
-.btn:hover {
-	background-color: #302f2f;
-	border: 2px solid #4FBDBA;
-	border-radius: 4px;
-	color: white;
-	padding: .5%;
-}
-
-.collapse {
-	cursor: pointer;
-}
-
-.drop-down {
-	display: flex;
-	align-items: s;
-	width: 100%;
+	height: 100vh;
 }
 
 .about-section {
@@ -161,11 +141,18 @@ p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	height: 100vh;
+}
+
+.my-pic {
+	width: 30%;
+	border-radius: 3px;
 }
 
 /* Footer Styles */
 
 .footer {
+	background-color: #191919;
 	display: flex;
 	justify-content: center;
 	align-items: center;

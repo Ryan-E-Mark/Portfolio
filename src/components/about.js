@@ -1,35 +1,14 @@
 import React from 'react';
-
-
-const myAbouts = [
-    {
-        title: "Home",
-        description: "I'm from Alaska...",
-        logo: "",
-    },
-    {
-        title: "Development",
-        description: "I create fast, aesthetic websites..",
-        logo: "",
-    },
-    {
-        title: "Hobbies",
-        description: "I like to..",
-        logo: "",
-    }
-]
+import myPic from '../imgs/me.jpg'
 
 const About = () => {
 
     return (
-        <section className="about-section">
-            {myAbouts.map( single => {
-                <div>
-                    <img src={single.logo} alt="about-me-"></img>
-                    <h3>{single.title}</h3>
-                    <p>{single.description}</p>
-                </div>
-            })}
+        <section id="about" className="about-section">
+            <h3>About Me</h3>
+            <img src={myPic} alt="my picture" className='my-pic'/>
+            <p>about me paragraph</p>
+            <p></p>
         </section>
     );
 }
