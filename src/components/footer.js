@@ -5,11 +5,11 @@ import email from '../imgs/email.png';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className='footer'>
             <div className='footer-div'>
-                <a href="https://www.linkedin.com/in/ryan-e-mark/" title="linkedin link"><img src={linkedIn} alt='link to my linkedin'></img></a>
-                <a href="https://github.com/Ryan-E-Mark" title="github link"><img src={gitHub} alt='link to my github'></img></a>
-                <a href="mailto:rymark907@gmail.com" title="email link"><img src={email} alt='link to my email'></img></a>
+                <a href="https://www.linkedin.com/in/ryan-e-mark/" title="linkedin link" className='footer-a'><img src={linkedIn} alt='link to my linkedin' className='footer-link'/></a>
+                <a href="https://github.com/Ryan-E-Mark" title="github link" className='footer-a'><img src={gitHub} alt='link to my github' className='footer-link'/></a>
+                <a href="mailto:rymark907@gmail.com" title="email link" className='footer-a'><img src={email} alt='link to my email' className='footer-link'/></a>
             </div>
         </footer>
     );
