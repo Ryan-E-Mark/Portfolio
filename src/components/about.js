@@ -5,9 +5,13 @@ const About = () => {
 
     return (
         <section id="about" className="about-section">
-            <h3>About Me</h3>
-            <img src={myPic} alt="my picture" className='my-pic'/>
-            <p>about me paragraph</p>
+            <h3 className='underline'>About Me</h3>
+            <div className="about-div">
+                <img src={myPic} alt="me" className='my-pic'/>
+                <div className="my-text">
+                    <p>A Full-Stack Web-Developer and graduate of Bloom Institute of Technology. I began my development journey as self taught through <a href="https://www.freecodecamp.org/">freecodecamp</a> but ultimately decided to go the bootcamp route. </p>
+                </div>
+            </div>
             <p></p>
         </section>
     );

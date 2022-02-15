@@ -112,7 +112,7 @@ h1 {
 }
 
 h3, p {
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 h4 {
@@ -125,7 +125,7 @@ h4 {
 
 .home-page {
 	background-color: #191919;
-	height: 120vh;
+	height: 110vh;
 }
 
 .intro-container {
@@ -135,6 +135,8 @@ h4 {
 	align-items: center;
 	height: 100vh;
 }
+
+/* About Styles */
 
 .about-section {
 	display: flex;
@@ -147,6 +149,22 @@ h4 {
 .my-pic {
 	width: 30%;
 	border-radius: 3px;
+}
+
+.about-div {
+	padding: 2% 0;
+	display: flex;
+	justify-content: center;
+}
+
+.my-text {
+	width: 30%;
+	padding: 2% 2%;
+}
+
+.my-text, p {
+	font-size: 1.25rem;
+	line-height: 1.5;
 }
 
 /* Footer Styles */
