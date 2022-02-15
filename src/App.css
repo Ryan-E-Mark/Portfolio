@@ -74,7 +74,7 @@ table {
 
 .nav-a {
 	color: white;
-	margin-right: 2%;
+	margin-right: 3%;
 	text-decoration: none;
 	display: inline-block;
 	position: relative;
@@ -156,9 +156,9 @@ p {
 	width: 100%;
 }
 
-/* .about-section {
+.about-section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-} */
+}
