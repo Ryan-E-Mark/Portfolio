@@ -173,6 +173,10 @@ h4 {
 	
 }
 
+.tech-stack {
+	display: flex;
+}
+
 /* Footer Styles */
 
 .footer {
@@ -181,7 +185,7 @@ h4 {
 	justify-content: center;
 	align-items: center;
 	border-top: 2px solid #4FBDBA;
-	height: 7vh;
+	height: 6vh;
 	width: 100%;
 }
 

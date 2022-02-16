@@ -14,7 +14,15 @@ const About = () => {
                     <p>I was born and raised in a small town in Alaska and love to spend time outdoors. For me, nature has always been a source of inspiration as well as a way to recalibrate and humble myself. I try to balance my seemingly ever increasing time in front of a screen with time spent where cell signal is sparce.</p>
                 </div>
             </div>
-            <p></p>
+            <p className='underline'>What I use:</p>
+            <div className="tech-stack">
+                <p>JavaScript</p>
+                <p>React.js</p>
+                <p>Redux</p>
+                <p>Node.js</p>
+                <p>Express</p>
+                <p>PostgreSQL</p>
+            </div>
         </section>
     );
 }
