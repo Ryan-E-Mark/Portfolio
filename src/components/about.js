@@ -9,7 +9,9 @@ const About = () => {
             <div className="about-div">
                 <img src={myPic} alt="me" className='my-pic'/>
                 <div className="my-text">
-                    <p>A Full-Stack Web-Developer and graduate of Bloom Institute of Technology. I began my development journey as self taught through <a href="https://www.freecodecamp.org/">freecodecamp</a> but ultimately decided to go the bootcamp route. </p>
+                    <p>I began my development journey as self taught through <a href="https://www.freecodecamp.org/" className='text-link' target="_blank" rel="noreferrer">freeCodeCamp</a> but ultimately decided to attend <a href="https://www.bloomtech.com/" className='text-link' target="_blank" rel="noreferrer">Bloom Institute of Technology</a> in August of 2021. Through their six month Web-Development program I both learned a lot and found I have a lot to learn.</p>
+                    <br/>
+                    <p>I was born and raised in a small town in Alaska and love to spend time outdoors. For me, nature has always been a source of inspiration as well as a way to recalibrate and humble myself. I try to balance my seemingly ever increasing time in front of a screen with time spent where cell signal is sparce.</p>
                 </div>
             </div>
             <p></p>

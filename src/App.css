@@ -167,6 +167,12 @@ h4 {
 	line-height: 1.5;
 }
 
+.text-link {
+	text-decoration: none;
+	color: white;
+	
+}
+
 /* Footer Styles */
 
 .footer {
@@ -175,7 +181,7 @@ h4 {
 	justify-content: center;
 	align-items: center;
 	border-top: 2px solid #4FBDBA;
-	height: 6vh;
+	height: 7vh;
 	width: 100%;
 }
 
