@@ -1,5 +1,10 @@
 import React from 'react';
-import myPic from '../imgs/me.jpg'
+import myPic from '../imgs/me.jpg';
+import reactPic from '../imgs/atomic-energy.png';
+import javaPic from '../imgs/js.png';
+import reduxPic from '../imgs/Redux.png';
+import nodePic from '../imgs/nodejs.jpg';
+import postPic from '../imgs/postgresql.png';
 
 const About = () => {
 
@@ -14,14 +19,30 @@ const About = () => {
                     <p>I was born and raised in a small town in Alaska and love to spend time outdoors. For me, nature has always been a source of inspiration as well as a way to recalibrate and humble myself. I try to balance my seemingly ever increasing time in front of a screen with time spent where cell signal is sparce.</p>
                 </div>
             </div>
-            <p className='underline'>What I use:</p>
-            <div className="tech-stack">
-                <p>JavaScript</p>
-                <p>React.js</p>
-                <p>Redux</p>
-                <p>Node.js</p>
-                <p>Express</p>
-                <p>PostgreSQL</p>
+            <h3 className='underline'>What I Use</h3>
+            <div className="tech-div">
+                <div className="tech-stack">
+                    <div className="t-d">
+                        <img src={javaPic} alt="JavaScript logo"/>
+                        <p>JavaScript</p>  
+                    </div>
+                    <div className="t-d">
+                        <img src={reactPic} alt="ReactJS logo"/>
+                        <p>ReactJS</p>  
+                    </div>
+                    <div className="t-d">
+                        <img src={reduxPic} alt="Redux logo"/>
+                        <p>Redux</p>  
+                    </div>
+                    <div className="t-d">
+                        <img src={nodePic} alt="Node.js logo"/>
+                        <p>Node.js</p>  
+                    </div>
+                    <div className="t-d">
+                        <img src={postPic} alt="PostgreSQL logo"/>
+                        <p>PostgreSQL</p>  
+                    </div>
+                </div>
             </div>
         </section>
     );

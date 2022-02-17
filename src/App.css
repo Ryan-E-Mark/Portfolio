@@ -173,8 +173,64 @@ h4 {
 	
 }
 
+.tech-div {
+	margin-top: 1%;
+	border: 1px solid #4FBDBA;	
+	width: 40%;
+}
+
 .tech-stack {
 	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.t-d {
+	width: 20%;
+	padding: 1%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.t-d img {
+	width: 50%;
+}
+
+/* Project Styles */
+
+.projects-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: 30%;
+}
+
+.projects-section h3 {
+	display: inline-block;
+}
+
+.projects {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding-top: 1%;
+}
+
+.project-div {
+	display: flex;
+	justify-content: center;
+	width: 25%;
+}
+
+.project-div img {
+	width: 100%;
+	border: .25px solid #4FBDBA;
+	border-radius: 2px;
 }
 
 /* Footer Styles */
