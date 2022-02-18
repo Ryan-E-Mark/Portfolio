@@ -9,7 +9,7 @@ import postPic from '../imgs/postgresql.png';
 const About = () => {
 
     return (
-        <section id="about" className="about-section">
+        <section id="about" className="about-section" title="about-section">
             <h3 className='underline'>About Me</h3>
             <div className="about-div">
                 <img src={myPic} alt="me" className='my-pic'/>

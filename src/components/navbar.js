@@ -1,16 +1,52 @@
 import React from "react";
+import { Link, animateScroll as scroll } from 'react-scroll';
+
 
 const NavBar = () => {
+
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+    }
+
+    const scrollToBottom = () => {
+        scroll.scrollToBottom();
+    }
+
     return (
         <section id="nav">
                 <div className="name-nav">
-                    <a href="#home" className="home-link"><h3>RM</h3></a> 
+                    <Link
+                        onClick={scrollToTop}
+                        spy={true}
+                        smooth={true}
+                        duration={700}
+                    >RM</Link>
                 </div>
-                <div className="link-nav"> 
-                    <a href="#about" className="nav-a">About</a> 
-                    <a href="#projects" className="nav-a">Projects</a> 
-                    <a href="#contact" className="nav-a">Contact</a> 
-                </div>
+                <ul className="link-nav">
+                    <Link
+                        className="nav-a"
+                        to="about-section"
+                        spy={true}
+                        smooth={true}
+                        duration={700}
+                    >About</Link>
+                    <Link
+                    activeClass="active"
+                        className="nav-a"
+                        to="projects-section"
+                        spy={true}
+                        smooth={true}
+                        duration={700}
+                    >Projects</Link> 
+                    <Link
+                        className="nav-a"
+                        onClick={scrollToBottom}
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={700}
+                    >Contact</Link>
+                </ul>
         </section>
     )
 }

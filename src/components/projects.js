@@ -5,7 +5,7 @@ import placeholder from '../imgs/placeholder.png';
 
 const Projects = () => {
     return (
-        <section id="projects" className='projects-section'>
+        <section id="projects" className='projects-section' title="projects-section">
             <h3 className='underline'>Projects</h3>
             <div className='projects'>
                 <div className="project-div">
