@@ -17,7 +17,7 @@ const Projects = (props) => {
                 {projects.map(project => 
                     <div className="project-div" onClick={() => openModal(project.id)}>
                         <h5>{project.title}</h5>
-                        <a href={project.link} target="_blank" rel="noreferrer"><img src={project.img} alt="project thumbnail"></img></a>
+                        <img src={project.img} alt="project thumbnail"></img>
                         <p><span className='span'>Description: </span>{project.description}</p>
                         <p><span className='span'>Role: </span>{project.role}</p>
                     </div>
