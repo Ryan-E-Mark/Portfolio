@@ -146,7 +146,7 @@ h4 {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	margin-bottom: 20%;
+	margin-bottom: 15%;
 }
 
 .my-pic {
@@ -212,6 +212,7 @@ h4 {
 	width: 100%;
 	height: 100vh;
 	margin-bottom: 15%;
+	padding-top: 0;
 }
 
 .projects-section h3 {
@@ -230,18 +231,24 @@ h4 {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	justify-content: center;
+	justify-content: flex-start;
 	width: 25%;
+	height: 100%;
 	cursor: pointer;
-	border: 1.5px solid white;
+	border: 2px solid #4FBDBA;
 	border-radius: 6px;
+	padding: 0;
+}
+
+.project-div h5, p {
 	padding: 1%;
 }
 
 .project-div img {
 	width: 100%;
-	border: .25px solid #4FBDBA;
-	border-radius: 2px;
+	border-bottom: 1px solid #4FBDBA;
+	border-radius: 4px;
+	margin-bottom: 1%;
 }
 
 .span {
@@ -278,11 +285,18 @@ h5 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	color: white;
+	text-align: center;
 }
 
 .modal-pic {
 	border: .2px solid white;
 	width: 80%;
+	margin-bottom: 1%;
+}
+
+.modal-tech {
+	font-size: 1rem;
 }
 
 .button-cont {
@@ -300,6 +314,39 @@ h5 {
 	font-size: 1.5rem;
 	width: 3%;
 	cursor: pointer;
+}
+
+.modal-description {
+	color:#4FBDBA;
+	width: 85%;
+	line-height: 1.25;
+}
+
+.modal-role {
+	padding: 0;
+}
+
+.modal-title {
+	color: #4FBDBA;
+	border-bottom: 1px solid white;
+}
+
+.go-button {
+	background-color: #191919;
+	color: white;
+	border: 1px solid white;
+	font-size: 1.25rem;
+	border-radius: 3px;
+	cursor: pointer;
+	text-decoration: none;
+	width: 5%;
+	padding: .5%;
+}
+
+.go-button:hover {
+	background-color: #474747;
+	animation: forwards;
+	animation-duration: 1s;
 }
 
 /* Footer Styles */
