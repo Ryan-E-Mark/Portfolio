@@ -25,9 +25,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	background-color: #191919;
-	color: #4FBDBA;
+	color: #5ddad6;
 }
 ol, ul {
 	list-style: none;
@@ -56,7 +56,7 @@ table {
 	top: 0;
 	z-index: 3;
 	height: 5vh;
-	border-bottom: 2px solid #4FBDBA;
+	border-bottom: 2px solid #5ddad6;
 	backdrop-filter: blur(6px);
 }
 
@@ -96,7 +96,7 @@ table {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #4FBDBA;
+	background-color: #5ddad6;
 	transform-origin: bottom;
 	transition: 0.4s ease-in-out;
 }
@@ -178,7 +178,7 @@ h4 {
 
 .tech-div {
 	margin-top: 1%;
-	border: 1px solid #4FBDBA;	
+	border: 1px solid #5ddad6;	
 	width: 40%;
 }
 
@@ -235,9 +235,14 @@ h4 {
 	width: 25%;
 	height: 100%;
 	cursor: pointer;
-	border: 2px solid #4FBDBA;
+	border: 2px solid #5ddad6;
 	border-radius: 6px;
 	padding: 0;
+	box-shadow: 1px 1px 20px 5px #3f3f3f;
+}
+
+.project-div:hover {
+	box-shadow: 1px 1px 20px 5px #5ddad6;
 }
 
 .project-div h5, p {
@@ -246,7 +251,7 @@ h4 {
 
 .project-div img {
 	width: 100%;
-	border-bottom: 1px solid #4FBDBA;
+	border-bottom: 1px solid #5ddad6;
 	border-radius: 4px;
 	margin-bottom: 1%;
 }
@@ -279,7 +284,7 @@ h5 {
 .modal-container {
 	height: 80%;
 	width: 50%;
-	border: 2px solid #4FBDBA; 
+	border: 2px solid #5ddad6; 
 	border-radius: 5px;
 	background-color: #191919;
 	display: flex;
@@ -317,7 +322,7 @@ h5 {
 }
 
 .modal-description {
-	color:#4FBDBA;
+	color:#5ddad6;
 	width: 85%;
 	line-height: 1.25;
 }
@@ -327,7 +332,7 @@ h5 {
 }
 
 .modal-title {
-	color: #4FBDBA;
+	color: #5ddad6;
 	border-bottom: 1px solid white;
 }
 
@@ -356,7 +361,7 @@ h5 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-top: 2px solid #4FBDBA;
+	border-top: 2px solid #5ddad6;
 	height: 7vh;
 	width: 100%;
 }
@@ -426,10 +431,7 @@ h5 {
 	}
 	
 	.about-div {
-		padding: 2% 0;
-		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		align-items: center;
 	}
 	
@@ -454,6 +456,104 @@ h5 {
 		width: 40%;
 	}
 
-
+	/* Projects Style */
+	.projects-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120vh;
+	}
 	
+	.projects {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		padding-top: 2%;
+	}
+	
+	.project-div {
+		width: 80%;
+		height: 80%;
+		border: 1.5px solid #5ddad6;
+		margin-top: 5%;
+	}
+
+	h5 {
+		font-size: 1.5rem;
+		margin-bottom: 1%;
+	}
+
+	/* Project Modal Styles */
+	.background-div { 
+		height: 120%;
+	}
+
+	.modal-container {
+		height: 60%;
+		width: 70%;
+	}
+	
+	.modal-pic {
+		width: 100%;
+		border: none;
+		border-top: .25px solid white;
+		border-bottom: .25px solid white;
+	}
+	
+	.modal-tech {
+		font-size: .8rem;
+	}
+	
+	.button-cont {
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+		padding: 0;
+	}
+	
+	.modal-button {
+		background-color: #191919;
+		color: white;
+		border: none;
+		font-weight: bold;
+		font-size: 1.5rem;
+		width: 3%;
+		cursor: pointer;
+	}
+	
+	.modal-description {
+		color:#5ddad6;
+		width: 85%;
+		line-height: 1.25;
+	}
+	
+	.modal-role {
+		padding: 0;
+	}
+	
+	.modal-title {
+		color: #5ddad6;
+		border-bottom: 1px solid white;
+	}
+	
+	.go-button {
+		background-color: #191919;
+		color: white;
+		border: 1px solid white;
+		font-size: 1.25rem;
+		border-radius: 3px;
+		cursor: pointer;
+		text-decoration: none;
+		width: 5%;
+		padding: .5%;
+	}
+	
+	.go-button:hover {
+		background-color: #474747;
+		animation: forwards;
+		animation-duration: 1s;
+	}
+
 }
