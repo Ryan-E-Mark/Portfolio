@@ -11,7 +11,7 @@ import projects from './data';
 
 function App() {
   const [showModal, setShowModal] = useState(false)
-  const [projectId, setProjectId] = useState(null);
+  const [projectId, setProjectId] = useState();
 
   return (
         <div>
