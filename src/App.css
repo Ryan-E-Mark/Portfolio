@@ -546,8 +546,142 @@ h5 {
 
 /* Tablet Media Query */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+	/* Home Styles */
+	h1 {
+		font-size: 6rem;
+		padding-bottom: 3%;
+	}
+	
+	h3, p, h4 {
+		font-size: 1.5rem;
+	}
+	
 	.intro-container {
 		text-align: center;
+	}
+
+	/* About Styles */
+	.about-section {
+		align-items: center;
+		height: 120vh;
+		margin-bottom: 15%;
+	}
+	
+	.my-pic {
+		width: 90%;
+		border-radius: 3px;
+	}
+	
+	.about-div {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.my-text {
+		width: 90%;
+	}
+	
+	.my-text, p {
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+
+	.tech-div {
+		width: 90%;
+	}
+	
+	.t-d p {
+		font-size: .75rem;
+	}
+	
+	.t-d img {
+		width: 40%;
+	}
+
+	/* Projects Style */
+	.projects-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 180vh;
+	}
+	
+	.projects {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		padding-top: 2%;
+	}
+	
+	.project-div {
+		width: 80%;
+		height: 80%;
+		border: 1.5px solid #5ddad6;
+		margin-top: 5%;
+	}
+
+	h5 {
+		font-size: 1.5rem;
+		margin-bottom: 1%;
+	}
+
+	/* Project Modal Styles */
+	.background-div { 
+		height: 120%;
+	}
+
+	.modal-container {
+		height: 60%;
+		width: 70%;
+	}
+	
+	.modal-pic {
+		width: 100%;
+		border: none;
+		border-top: .25px solid white;
+		border-bottom: .25px solid white;
+	}
+	
+	.modal-tech {
+		font-size: .8rem;
+	}
+	
+	.button-cont {
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+		padding: 0;
+	}
+	
+	.modal-button {
+		width: 10%;
+	}
+	
+	.modal-description {
+		padding: 5%;
+		line-height: 1.5;
+	}
+	
+	.modal-role {
+		padding-top: 2%;
+	}
+	
+	.go-button {
+		width: 15%;
+	}
+
+	/* Footer Styles */	
+	.footer-div {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		width: 70%;
+	}
+	
+	.footer-a {
+		width: 10%;
 	}
 }
