@@ -296,7 +296,7 @@ h5 {
 
 .modal-pic {
 	border: .2px solid white;
-	width: 80%;
+	width: 90%;
 	margin-bottom: 1%;
 }
 
@@ -514,46 +514,40 @@ h5 {
 	}
 	
 	.modal-button {
-		background-color: #191919;
-		color: white;
-		border: none;
-		font-weight: bold;
-		font-size: 1.5rem;
-		width: 3%;
-		cursor: pointer;
+		width: 10%;
 	}
 	
 	.modal-description {
-		color:#5ddad6;
-		width: 85%;
-		line-height: 1.25;
+		padding: 5%;
+		line-height: 1.5;
 	}
 	
 	.modal-role {
-		padding: 0;
-	}
-	
-	.modal-title {
-		color: #5ddad6;
-		border-bottom: 1px solid white;
+		padding-top: 2%;
 	}
 	
 	.go-button {
-		background-color: #191919;
-		color: white;
-		border: 1px solid white;
-		font-size: 1.25rem;
-		border-radius: 3px;
-		cursor: pointer;
-		text-decoration: none;
-		width: 5%;
-		padding: .5%;
-	}
-	
-	.go-button:hover {
-		background-color: #474747;
-		animation: forwards;
-		animation-duration: 1s;
+		width: 15%;
 	}
 
+	/* Footer Styles */	
+	.footer-div {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		width: 70%;
+	}
+	
+	.footer-a {
+		width: 10%;
+	}
+
+}
+
+/* Tablet Media Query */
+
+@media (max-width: 767px) {
+	.intro-container {
+		text-align: center;
+	}
 }
