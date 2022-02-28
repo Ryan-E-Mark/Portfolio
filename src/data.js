@@ -20,7 +20,7 @@ const projects = [
         img: cocktailPic,
         link: "https://drink-generator-random.vercel.app/",
         description: "Randomly generate a cocktail recipe with the click of a button!",
-        description2: "Created a React application to display JSON response from a free cocktail API. Handled state management with Redux and styling through CSS.",
+        description2: "Created a React application to display JSON responses from a free cocktail API. Handled state management with Redux and styling through CSS.",
         tech: "React | CSS | HTML | Axios | Redux | Vercel",
         role: "Front-End Developer"
     },

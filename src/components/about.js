@@ -14,9 +14,9 @@ const About = () => {
             <div className="about-div">
                 <img src={myPic} alt="me" className='my-pic'/>
                 <div className="my-text">
-                    <p>I began my development journey as self taught through <a href="https://www.freecodecamp.org/" className='text-link' target="_blank" rel="noreferrer">freeCodeCamp</a> but ultimately decided to attend <a href="https://www.bloomtech.com/" className='text-link' target="_blank" rel="noreferrer">Bloom Institute of Technology</a> in August of 2021. Through their six month Web-Development program I both learned a lot and found I have a lot to learn.</p>
+                    <p>I began my development journey as self taught through <a href="https://www.freecodecamp.org/" className='text-link' target="_blank" rel="noreferrer">freeCodeCamp</a> but ultimately decided to attend <a href="https://www.bloomtech.com/" className='text-link' target="_blank" rel="noreferrer">Bloom Institute of Technology</a> in August of 2021. Through their six month Web-Development program I learned to create Full-Stack applications, collaborate on team projects using Git and agile practices, and deploying applications to the cloud for use by all.</p>
                     <br/>
-                    <p>I was born and raised in a small town in Alaska and love to spend time outdoors. For me, nature has always been a source of inspiration as well as a way to recalibrate and humble myself. I try to balance my seemingly ever increasing time in front of a screen with time spent where cell signal is sparce.</p>
+                    <p>I was born and raised in a small town in Alaska and love to spend time outdoors. For me, nature has always been a source of inspiration as well as a way to recalibrate and humble myself.</p>
                 </div>
             </div>
             <h3 className='underline'>What I Use</h3>
