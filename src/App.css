@@ -375,3 +375,85 @@ h5 {
 .footer-link {
 	width: 100%;
 }
+
+/* Mobile Media Queries */ 
+
+@media (max-width: 480px) {
+
+	/* Nav Styles */
+	body {
+		width: 100%;
+	}
+	
+	.name-nav {
+		padding-left: 3%;
+		font-size: 1.25rem;
+	}
+	
+	.nav-a {
+		font-size: .9rem;
+	}
+
+	/* Home Styles */
+	h1 {
+		font-size: 4rem;
+		padding-bottom: 3%;
+	}
+	
+	h3, p, h4 {
+		font-size: 1.2rem;
+	}
+
+	.home-page {
+		height: 100vh;
+		padding: 0%;
+	}
+	
+	.intro-container {
+		text-align: center;
+	}
+
+	/* About Styles */
+	.about-section {
+		align-items: center;
+		height: 100vh;
+		margin-bottom: 15%;
+	}
+	
+	.my-pic {
+		width: 90%;
+		border-radius: 3px;
+	}
+	
+	.about-div {
+		padding: 2% 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.my-text {
+		width: 90%;
+	}
+	
+	.my-text, p {
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+
+	.tech-div {
+		width: 90%;
+	}
+	
+	.t-d p {
+		font-size: .75rem;
+	}
+	
+	.t-d img {
+		width: 40%;
+	}
+
+
+	
+}
