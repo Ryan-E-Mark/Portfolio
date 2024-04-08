@@ -26,13 +26,13 @@ const projects = [
     },
     {
         id: 3,
-        title: "Freebooter Website",
+        title: "Tasty Bites",
         img: placeholder,
-        link: null,
-        description: "The official website of Freebooter Mountain Surf.",
-        description2: "Creating the webpage for Freebooter Mountain Surf. Top of the line custom pow-surfers need a top of the line website. Working to create a full CRUD application for the owner of Freebooter to keep inventory and news up to date. ",
-        tech: "React | CSS | HTML | Axios | Redux | Node.js | Express | PostgreSQL | Heroku",
-        role: "Full-Stack Developer"
+        link: "https://tasty-bites-tau.vercel.app/",
+        description: "Search for recipes by a variety of methods.",
+        description2: "A personal project interfacing with a recipe-api, used as a way to learn TailwindCSS. Will be an ongoing project as more features are added, and improvemnts in UI made.",
+        tech: "React | TailwindCSS | HTML | Axios | TypeScript",
+        role: "Front-End Developer"
     }
 ];
 
