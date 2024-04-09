@@ -5,6 +5,7 @@ import javaPic from "../imgs/js.png";
 import reduxPic from "../imgs/Redux.png";
 import nodePic from "../imgs/nodejs.jpg";
 import postPic from "../imgs/postgresql.png";
+import typePic from "../imgs/typescript.png";
 
 const About = () => {
   return (
@@ -34,7 +35,7 @@ const About = () => {
             </a>{" "}
             in August of 2021. With 2 years of professional Front-End
             development experience, I am looking to expand my knowledge and
-            capability as a developer by continuing to practice the fundamentals and by learning new languages and frameworks.
+            capability as a developer by continuing to practice the fundamentals and learning new languages and frameworks.
           </p>
           <br />
           <p>
@@ -50,6 +51,10 @@ const About = () => {
           <div className="t-d">
             <img src={javaPic} alt="JavaScript logo" />
             <p>JavaScript</p>
+          </div>
+          <div className="t-d">
+            <img src={typePic} alt="TypeScript logo" />
+            <p>TypeScript</p>
           </div>
           <div className="t-d">
             <img src={reactPic} alt="ReactJS logo" />
